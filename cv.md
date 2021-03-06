@@ -19,7 +19,7 @@ I'm a fast and enthusiastic learner, learning path opportunities multiply as the
 
 * HTML5 & CSS3
 * Responsive Web Design
-* JavaScript Fundamentals + ES6
+* JavaScript & **ES6**
 * Git / GitHub
 * ReactJS
 
