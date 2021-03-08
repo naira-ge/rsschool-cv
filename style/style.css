@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body, 
+html{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 85vw;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.7;
+    color: rgb(5, 0, 31);
+    background-color: rgba(235, 237, 252, 0.637);
+}
+
+header{
+    background:linear-gradient(rgba(0, 3, 17, 0.959), rgba(216, 217, 230, 0.836));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: .5rem 0;
+}
+
+.avatar{
+    height: 200px;
+    width: 200px;
+    border-radius: 6rem;
+    background-size: cover;
+}
+
+.contacts{
+    padding-bottom: 1.5rem;
+}
+
+.contacts-info{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.contacts-item{
+    margin-bottom: .1rem;
+    font-weight: 600;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.contacts-item img{
+    height: 26px;
+    width: 26px;
+    margin-right: .9rem;
+}
+
+section{
+ padding-right: 1.5rem;
+ padding-left: 1.5rem;
+ padding-bottom: .1rem;
+}
+
+.description-text{
+padding: 0 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    color: #090149;
+    border-bottom: 1px solid #0c015871;
+    font-weight: 600;
+  }
+
+.skills-list{
+    list-style-type:circle;
+}
+  
+.education-list{
+    list-style-type: square;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-block{
+    padding: 2rem;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    background-size:cover;   
+}
