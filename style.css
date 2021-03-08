@@ -44,7 +44,7 @@ padding: 0;
 }
 
 .contacts-item{
-    margin-bottom: .2rem;
+    margin-bottom: .6rem;
     font-weight: 600;
     display: flex;
     flex-flow:row wrap;
@@ -85,6 +85,10 @@ a:hover {
   
 .education-list{
     list-style-type: square;
+}
+
+.nest-item{
+    list-style:disc;
 }
 
 footer{
